@@ -7,6 +7,27 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="清除" HorizontalAlignment="Left" Height="30" Margin="41,23,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="27" Margin="41,81,0,0" VerticalAlignment="Top" Width="92"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="27" Margin="282,81,0,0" VerticalAlignment="Top" Width="118"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="282,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" RenderTransformOrigin="0.528,-1.335"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="27" Margin="560,81,0,0" VerticalAlignment="Top" Width="119"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="560,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="31" Margin="41,0,0,0" VerticalAlignment="Center" Width="105"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="31" Margin="282,0,0,0" VerticalAlignment="Center" Width="118"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="31" Margin="560,0,0,0" VerticalAlignment="Center" Width="119"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="282,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="560,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Label" HorizontalAlignment="Left" Height="31" Margin="87,284,0,0" VerticalAlignment="Top" Width="79"/>
+        <RichTextBox HorizontalAlignment="Left" Height="85" Margin="87,315,0,0" VerticalAlignment="Top" Width="567" TextChanged="RichTextBox_TextChanged">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
     </Grid>
 </Window>
